@@ -1,7 +1,7 @@
 const pg = require(`pg`);
 
 const config = {
-    database: `...........`,
+    database: `...........`, // No database in use
     host: `localhost`,
     port: 5432,
     max: 10,
