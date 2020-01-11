@@ -21,6 +21,6 @@ I am using this technology in my solo project. This is the bare minimum as far a
 - 'npm run server' starts the server
 - 'npm run client' starts the client
 
-Thanks to faculty and students at Prime Digital Academy for helping me troubleshoot this.
+Thanks to the faculty and students at Prime Digital Academy for helping me troubleshoot this.
 
 With questions or concerns, email me at awren.nuit@gmail.com
