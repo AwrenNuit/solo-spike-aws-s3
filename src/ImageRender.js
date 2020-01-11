@@ -11,9 +11,9 @@ class ImageRender extends Component{
     return(
       <>
       {this.props.reduxState.map(image=>
-        <div key={image.id}>
-          <img src={"https://prime-solo-test.s3.us-east-2.amazonaws.com/"+image.image_url} alt={image.description} />
-        </div>
+        <span key={image.id}>
+          <div className="img" style={{backgroundImage:`url(https://prime-solo-test.s3.us-east-2.amazonaws.com/${image.image_url})`}}></div>
+        </span>
       )}
       </>
     );
