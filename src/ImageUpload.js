@@ -16,6 +16,12 @@ const dropzoneStyle = {
 
 class ImageUpload extends Component{
 
+  handleFinishedUpload = info => {
+    console.log('File uploaded with filename', info.filename)
+    console.log('Access it on s3 at', info.fileUrl)
+    this.props.dispatch({type: `POST_IMAGE`, payload: info.filename});
+  }
+
   render(){
     const uploadOptions = {
       server: 'http://localhost:5000'
